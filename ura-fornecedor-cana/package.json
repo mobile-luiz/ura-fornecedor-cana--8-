@@ -1,0 +1,17 @@
+{
+  "name": "ura-fornecedor-cana",
+  "version": "1.0.0",
+  "description": "URA via WhatsApp para fornecedores de cana consultarem tonelagem e ATR pelo CPF",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "José Luiz Vicente da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "@hapi/boom": "^10.0.1",
+    "express": "^4.19.2",
+    "qrcode": "^1.5.4"
+  }
+}
